@@ -1,0 +1,12 @@
+.IDcontact1{
+    color: blue;
+    justify-content: center;
+    background: blue;
+    margin-outside: 0px;
+}
+.ContactsContainer1{
+ justify-content: center;
+    display: inline-block;
+    max-width: 400px;
+    padding-left: 400px;
+}
