@@ -31,65 +31,20 @@ decision on the project structure
 RootDirectory -> index.html , CSS/ PUBLIC/ ASSETS/ JS/
 Print Working Document : pwd
 
-list : ls
 
-change directory : cd 'directory name' : navigate in cd .. : navigate out
 
-clear : to clear out commands on terminal
 
-mkdir : make directory :: mkdir 'Personal web' mkdir personal portfolioWeb
 
-touch : create a file : touch filename
+### Landing Project
 
-cp : copy ,
-
-mv: move
-
-cat : allow create files
-
-rm -rf directoryname
-
-GITHUB PROCESS
-Prerequiste
-a. Terminal knowledge b. github account c. ## configure the github on terminal
-
-Configuration steps
-git init
-git config user.email 'x@example.com' {here use the email you registered to github with}
-git config user.name 'Elixzokyai' {github account username}
-when the project is new
-git init
-git remote add origin https://github.com/Elixzokyai/Personal-portfolio-landing-project-page.git {get your url origin from github}
-git remote -v {to check if above origin was added}
-git status : {red : rep. files that are not yet added to be committed} {green rep. files that are ready to be committed}
-git add . git add filename/foldername
-git commit -m "add commit message"
-git push origin branchname(master/main)
-when the project is not new
-git status : {red : rep. files that are not yet added to be committed} {green rep. files that are ready to be committed}
-git add . git add filename/foldername
-git commit -m "add commit message"
-git push origin branchname(master/main)
-HTML
-HTML elements : an html element will defined with a start tag , some content and then an end tag <> content </> </> :: enclosing tag.
-Nature of the element ::
-Block level element :: occupies entire width of the canvas
-Inline element :: occupies only necessary width required by the elements
-HTML Attributes :: more info. about the element every single html element can have an attribute
-CSS
-cascading stylesheets
-Key Concepts
-
-How to write CSS ....
-inline css : css directly written on the element : style attribute
-internal css : css script written inside the html document : style element
-external css : css script is an external linked to the html document
-Syntax identifier/selector : { property: value; }
-How to select element to style
-inline css : the element is the selection
-id attribute : unique identifier for our elements
-class attribute : grouping identifier for our elements
-tag elements : identifying the element to style using its html element name
-CSS GRID
-
-Parent container
+Click the contact Me
+The page will take you to that next webpage where you will fill you details
+click on About Me
+The page will scroll down to where the skills and hobbies are.
+click on get me back
+The page will take you to home of the page.
+click on the video to display the landing page project idea
+click on the social media to locate the users webpage and follow up with what he does on the page.
+click on display, to show , about me, contact me and get back home.
+click on project management to display a webpage that will show more information about the project management
+click landing project to show more details about the project.

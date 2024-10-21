@@ -1,12 +1,146 @@
+.AllContains{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas:
+    'nd nd nd nd nd nd nd nd nd'
+    'cd cd cd mn mn mn pk pk pk'
+    'yt yt yt hj hj hj km km km'
+    'fg fg fg fg fg fg fg fg fg'
+    'vd vd vd vd vd vd vd vd vd';
+}
+
+.img-container{
+    display: flex;
+    height: auto;
+    width: 300px;
+}
+.LogoImage{
+    border-radius: 20px;
+    width: 50px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+#Navbar{
+        grid-area: nd;
+        width: auto;
+
+    }
+
+#VideoDiv{
+    grid-area: mn;
+}
+
+#portfolioDiv{
+    grid-area: km;
+
+}
+
+#skillsDiv{
+    grid-area: fg;
+
+
+}
+
+#SocialDiv{
+    grid-area: vd;
+}
+#SomeC1{
+    grid-area: cd;
+}
+
+#SomeC2{
+    grid-area: pk;
+}
+
+#SomeC3{
+    grid-area: yt;
+}
+
+#SomeC4{
+    grid-area: hj;
+}
+
+#Skills{
+    color: darkcyan;
+}
+
+#Hobbies{
+    color: gray;
+}
+@media screen and (max-width: 600px) {
+    .AllContains{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-areas:
+                'nd nd nd nd nd nd nd nd nd'
+                'cd cd cd cd cd cd cd cd cd'
+                'mn mn mn mn mn mn mn mn mn'
+                'pk pk pk pk pk pk pk pk pk'
+                'yt yt yt yt yt yt yt yt yt'
+                'hj hj hj hj hj hj hj hj hj'
+                'km km km km km km km km km'
+                'fg fg fg fg fg fg fg fg fg'
+                'vd vd vd vd vd vd vd vd vd'
+                ;
+    }
+
+
 .IDcontact1{
-    color: blue;
-    justify-content: center;
-    background: blue;
-    margin-outside: 0px;
+color: blue;
+justify-content: center;
 }
+
 .ContactsContainer1{
- justify-content: center;
-    display: inline-block;
-    max-width: 400px;
-    padding-left: 400px;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
+
+.Pangaea{
+    letter-spacing: 5px;
+    padding-left: 300px;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+}
+}
+.ManageS{
+    justify-content: center;
+    display: flex;
+    color: green;
+}
+
+
+.ContactDetails{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas:
+        'wt wt wt wt wt wt wt wt wt'
+        'cv cv lm lm lm lm lm bn bn'
+;
+}
+
+#Contact1{
+    grid-area: wt;
+}
+#contact2{
+    grid-area: cv;
+}
+#contact3{
+    grid-area: lm;
+}
+#contact4{
+    grid-area: bn;
+}
+
+#Details{
+    height: auto;
+}
+
+
+
+
+
+
