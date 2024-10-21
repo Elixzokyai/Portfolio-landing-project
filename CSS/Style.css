@@ -24,6 +24,7 @@
 #Navbar{
         grid-area: nd;
         width: auto;
+        height: 60px;
 
     }
 
